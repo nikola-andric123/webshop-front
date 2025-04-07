@@ -67,3 +67,9 @@ List major frameworks, libraries, and tools:
 - **Payment API:** Stripe integration.
 - **User Profile:** Interface for managing user information.
 
+## 📷 Screenshots
+- **User:**
+- ![User interface](images/photo-collage.png.png)
+- ![Item Page](images/ProductPreview.PNG)
+- **Admin:**
+- ![Admin](images/photo-collageAdmin.png)
