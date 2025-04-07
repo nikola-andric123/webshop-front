@@ -1,0 +1,92 @@
+.orders-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 30px 50px;
+    border-radius: 15px;
+    width: 90%;
+    background: #f0f0f0;
+    margin: 100px 80px 250px 50px;
+}
+.orders-list-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 0.1fr;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.orders-list-table-data{
+    width: 100%;
+}
+.orders-list-table-item{
+    font-size: 20px;
+    margin: 25px 10px;
+    font-weight: 500;
+}
+.orders-list-inner-table{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr 1fr 0.8fr 0.5fr;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    width: 90%;
+    margin: 10px 20px;
+    padding: 10px 15px;
+}
+.orders-list-inner-table-item{
+    background: white;
+    width: 100%;
+    padding: 10px 25px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #474747;
+}
+.orders-list-inner-table-data{
+    width: 90%;
+   
+}
+.orders-inner-list{
+    border: 1px solid #c3c3c3;
+    width: 90%;
+    margin: 15px 20px;
+}
+.list-product-down-icon{
+    cursor: pointer;
+    
+}
+.list-product-down-icon:hover{
+    
+    transform: scale(2);
+    transition: all 0.1s ease-in-out;
+    
+}
+.list-product-down-icon.rotated {
+    transform: rotate(180deg); /* Rotate 180 degrees */
+}
+.list-product-down-icon.rotated:hover{
+    transform: rotate(180deg) scale(2);
+}
+.orders-list-select{
+    padding: 10px;
+    width: auto;
+    height: 50px;
+    font-size: 14px;
+    color: #7b7b7b;
+    border: 1px solid #7b7b7b;
+    border-radius: 4px;
+}
+.orders-list-button{
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background: #6079ff;
+    color: white;
+    margin-left: 20px;
+}
+.order-item-img{
+    width: 50px;
+    height: auto;
+    padding: 25px 0px;
+    
+}
